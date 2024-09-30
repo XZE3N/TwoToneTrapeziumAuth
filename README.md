@@ -14,7 +14,7 @@
 ## Project Structure
 
 ```
-/project-root
+/root
 │
 ├── index.html          # Main HTML file
 ├── css/
@@ -28,7 +28,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/TwoToneTrapeziumAuth.git
+   git clone https://github.com/XZE3N/TwoToneTrapeziumAuth.git
    ```
 2. Open `index.html` in any modern browser.
 
