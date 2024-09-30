@@ -10,13 +10,13 @@
 
 ## Screenshots
 
-#### Login UI
+### Login UI
 This screenshot showcases the **login form** with a clean, geometric design. The page features an overlayed yellow and green trapezium background, with input fields for the username and password, along with a "Forgot Password" link.
 <p align="center">
   <img src="https://i.imgur.com/U8oqNZg.png" alt="Login Form" />
 </p>
 
-#### Register UI
+### Register UI
 This screenshot highlights the **registration form**, which shares the same geometric layout. It provides fields for creating a new username and password, while visually inverting the colors to differentiate the registration page from the login page.
 <p align="center">
   <img src="https://i.imgur.com/7LXX2LZ.png" alt="Register Form" />
