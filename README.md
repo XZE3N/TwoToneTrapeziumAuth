@@ -8,6 +8,19 @@
 
 **TwoToneTrapeziumAuth** is a minimalistic frontend project featuring a login and registration page, designed with pure HTML and CSS. The interface uses two overlayed trapezium shapes (yellow and green) to create a unique and modern UI. JavaScript (with jQuery) is used to switch between the login and registration forms.
 
+## Project Structure
+
+```
+/root
+│
+├── index.html          # Main HTML file
+├── css/
+│   └── style.css       # Stylesheet for the project
+├── js/
+│   └── main.js         # JavaScript functionality for form toggling
+└── README.md           # Project documentation
+```
+
 ## Screenshots
 
 ### Login UI
@@ -29,19 +42,6 @@ This screenshot highlights the **registration form**, which shares the same geom
 - **Color Scheme**: Yellow and green theme for visual distinction between login and register forms.
 - **Responsive Layout**: Designed to work across different screen sizes.
 - **JavaScript Functionality**: Handles form switching and dynamic background color changes.
-
-## Project Structure
-
-```
-/root
-│
-├── index.html          # Main HTML file
-├── css/
-│   └── style.css       # Stylesheet for the project
-├── js/
-│   └── main.js         # JavaScript functionality for form toggling
-└── README.md           # Project documentation
-```
 
 ## How to Run
 
