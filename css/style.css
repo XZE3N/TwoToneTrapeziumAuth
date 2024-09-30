@@ -1,1 +1,219 @@
+:root {
+    font-size: 16px;
+    font-family: 'Open Sans', Calibri, sans-serif;
+    --text-primary: #E6FEFD;
+    --text-secondary: #b6b6b6;
+    --bg: #183442;
+    --bg-primary: #01A479;
+    --bg-shade: #00AF86;
+    --bg-secondary: #FFE763;
+    --bg-secondary-shade: #ffe863e9;
 
+    --width: 36rem;
+    --height: 26rem;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--bg);
+}
+
+#login-form {
+    position: absolute;
+    width: var(--width);
+    height: var(--height);
+    background-image: linear-gradient(35.838deg, var(--bg-primary) 0%, var(--bg-primary) 50%, var(--bg-shade) 50%, var(--bg-shade) 100%);
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#login-form:before {
+    background: transparent;
+    border-top: calc(var(--height)/4) solid var(--bg);
+    border-left: calc(var(--width)/2) solid transparent;
+    border-right: calc(var(--width)/2) solid transparent;
+    content: "";
+    height: 1px;
+    left: 0;
+    width: 1px;
+    position: absolute;
+    top: -3px;
+    transform: scale(1.055555);
+    box-shadow: 0px -10px 0px var(--bg);
+}
+
+#login-form:after {
+    position: absolute;
+    border-bottom: calc(var(--width)/2) solid var(--bg-secondary);
+    transform: rotate(-90deg);
+    border-left: calc(var(--height)/4) solid transparent;
+    border-right: calc(var(--height)/4) solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    right: 40px;
+    top: -40px;
+}
+
+.swap:after {
+    transform: rotate(90deg) !important;
+    left: 40px;
+    right: 0;
+    border-bottom: calc(var(--width)/2) solid var(--bg-primary) !important;
+}
+
+#title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#title a {
+    position: absolute;
+    text-decoration: none;
+    margin-top: 13rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    z-index: 2;
+}
+#login-t {
+    left: 0;
+    color: var(--text-primary);
+    margin-left: 4rem;
+}
+#register-t {
+    right: 0;
+    color: var(--bg);
+    margin-right: 3rem;
+}
+form {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    z-index: 2;
+    bottom: 4rem;
+}
+#user, #pass, #user-r, #pass-r {
+    margin-left: 4rem;
+    width: 24rem;
+    height: 2rem;
+    background: transparent;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid var(--text-primary);
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    padding-bottom: 0.5rem;
+    color: var(--text-primary);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#user-r, #pass-r {
+    border-bottom: 1px solid var(--bg);
+    color: var(--bg);
+    text-align: right; 
+    padding-left: 0;
+    padding-right: 1.5rem;
+}
+
+#submit {
+    border: none;
+    width: 14rem;
+    background-color: var(--bg-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 4rem;
+    margin-top: 0.5rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--bg);
+}
+
+#submit-r {
+    border: none;
+    width: 14rem;
+    background-color: var(--bg-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 4rem;
+    margin-top: 0.5rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+form a {
+    display: flex;
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0;
+    text-decoration: none;
+    font-style: italic;
+    color: var(--text-primary);
+    font-size: 15px;
+}
+
+#a2 {
+    color: var(--bg);
+}
+
+#register {
+    display: none !important;
+}
+
+svg {
+    font-size: 16px !important;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    margin-left: 4rem;
+    margin-bottom: 0.90rem;
+}
+
+form svg:first-child {
+    margin-bottom: 9.15rem;
+}
+
+#register svg {
+    right: 0;
+}
+
+::-webkit-input-placeholder { /* Edge */
+    color: var(--text-primary);
+    font-size: 1rem;
+}
+  
+::placeholder {
+    color: var(--text-primary);
+    font-size: 1rem;
+    font-weight: 600;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: var(--text-primary);
+}
+
+#register ::placeholder {
+    color: rgba(24, 52, 66, 0.9);
+    font-size: 1rem;
+    font-weight: 600;
+}
+#register ::-webkit-input-placeholder { 
+    color: rgba(24, 52, 66, 0.9);
+    font-size: 1rem;
+}
+#register :-ms-input-placeholder { 
+    color: rgba(24, 52, 66, 0.9);
+}
