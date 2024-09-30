@@ -1,6 +1,11 @@
 
 # TwoToneTrapeziumAuth
 
+![GitHub License](https://img.shields.io/github/license/XZE3N/TwoToneTrapeziumAuth)
+![GitHub last commit](https://img.shields.io/github/last-commit/XZE3N/TwoToneTrapeziumAuth)
+![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/XZE3N/TwoToneTrapeziumAuth)
+![GitHub contributors](https://img.shields.io/github/contributors/XZE3N/TwoToneTrapeziumAuth)
+
 **TwoToneTrapeziumAuth** is a minimalistic frontend project featuring a login and registration page, designed with pure HTML and CSS. The interface uses two overlayed trapezium shapes (yellow and green) to create a unique and modern UI. JavaScript (with jQuery) is used to switch between the login and registration forms.
 
 ## Features
